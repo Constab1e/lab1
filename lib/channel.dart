@@ -32,7 +32,6 @@ class Lab1Channel extends ApplicationChannel {
     // Prefer to use `link` instead of `linkFunction`.
     // See: https://aqueduct.io/docs/http/request_controller/
     router.route("/").link(() => NameController());
-
     return router;
   }
 }
